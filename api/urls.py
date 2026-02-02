@@ -24,3 +24,5 @@ urlpatterns = [
     path("hackathon/", HackathonRegistrationCreate.as_view()),
     path("hackathon/<int:pk>/", HackathonRegistrationCreate.as_view()),
 ]
+
+#urls
